@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right .perfil {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.menu .start{
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    justify-content: space-between;  
+    padding: 0 24px;   
+}
+
+.menu .left .logo {
+    padding: 2px 0 2px 22px;
+    cursor: pointer;
+    
+}
+
+.menu .middle {
+    display: flex;
+    align-items: center;
+}
+
+.menu .middle #search {
+    width: 348px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+}
+
+.menu .middle .btn {
+    height: 40px;
+    width: 57px;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    cursor: pointer;
+}
+
+.menu .right {
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    align-items: center;
+} 
+
+.menu .bell {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.menu .videoIcon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: 65px;
+    margin-top: 28px;
+}
+
+.container .video {
+    margin-top: -10px;
+}
+
+.container .title {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+}
+
+.container .videoactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    
+
+}
+
+.container .videoactions .channelinfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    width: 160px;
+    height: 42px;
+}
+
+.container .videoactions #channelContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .videoactions #channelName {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container .videoactions #subscribes {
+    color: #515151;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container .videoactions .channelinfo .channelAvatar {
+    width: 42px;
+    height: 42px;
+}
+
+.container .videoactions #subBtn {
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #C00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.container .videoactions .btns {
+    display: flex;  
+    justify-content: center;
+}
+
+.container .videoactions .btns p{
+    margin: 0 42px 0 10px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container .description #views {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container .description #comments {
+    margin-top: 16px;
+    color: #515151;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sidebar {
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 16px;
+    margin-left: 25px;
+    
+}
+
+.sidebar p {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.sidebar #pageName {
+    color: #515151;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sidebar #analytics {
+    color: #515151;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sidebar p {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+
+
